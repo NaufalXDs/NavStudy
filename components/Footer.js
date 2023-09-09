@@ -3,15 +3,8 @@ import Link from "next/link"
 export default function Footer() {
     return (
         <>
-            {/* <footer className="block md:hidden fixed bottom-0 left-0 right-0 rounded-t-3xl border border-[#383838] bg-opacity-80 backdrop-blur-md backdrop-opacity-90">
-                <nav className="flex justify-around py-4 text-xs">
-                    <Link href="/article" className="hover:text-white hover:underline">Article</Link>
-                    <Link href="/" className="hover:text-white hover:underline">Home</Link>
-                    <Link href="/blog" className="hover:text-white hover:underline">Blog</Link>
-                </nav>
-            </footer> */}
             <footer>
-                <div className="max-w-[85rem] py-10 px-4 sm:px-6 lg:px-8 mx-auto bg-[#1f2937]">
+                <div className="max-w-[85rem] py-10 px-4 sm:px-6 lg:px-8 mx-auto dark:bg-gray-900 rounded-t-md">
                     <div className="grid grid-cols-1 md:grid-cols-3 items-center gap-5 text-center">
                         <div>
                             <a className="flex-none text-xl font-semibold text-black dark:text-white" href="#" aria-label="Brand">NavStudy by Nav</a>
