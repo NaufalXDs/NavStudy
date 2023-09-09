@@ -17,12 +17,12 @@ export default function Home() {
       </Head>
       <Hero />
       <Container className="container mx-auto px-10">
-        <div class="max-w-[85rem] w-[85%] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
-          <div class="max-w-2xl text-center mx-auto mb-10 lg:mb-14">
-            <h2 class="text-2xl font-bold md:text-4xl md:leading-tight dark:text-white">Read our latest article</h2>
-            <p class="mt-1 text-gray-600 dark:text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        <div className="max-w-[85rem] w-[85%] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+          <div className="max-w-2xl text-center mx-auto mb-10 lg:mb-14">
+            <h2 className="text-2xl font-bold md:text-4xl md:leading-tight dark:text-white">Read our latest article</h2>
+            <p className="mt-1 text-gray-600 dark:text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
           </div>
-          <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-10 lg:mb-14">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-10 lg:mb-14">
             {posts.slice(0, 4).map((post) => (
               <div className="">
                 <CardPost {...post} />
@@ -30,15 +30,15 @@ export default function Home() {
             ))}
           </div>
 
-          <div class="text-center">
-            <div class="inline-block bg-white border shadow-sm rounded-full dark:bg-[#1f2937] dark:border-gray-800">
-              <div class="py-3 px-4 flex items-center gap-x-2">
-                <p class="text-gray-600 dark:text-gray-400">
+          <div className="text-center">
+            <div className="inline-block bg-white border shadow-sm rounded-full dark:bg-[#1f2937] dark:border-gray-800">
+              <div className="py-3 px-4 flex items-center gap-x-2">
+                <p className="text-gray-600 dark:text-gray-400">
                   Want to read more?
                 </p>
-                <a class="inline-flex items-center gap-x-1.5 text-blue-600 decoration-2 hover:underline font-medium" href="/article">
+                <a className="inline-flex items-center gap-x-1.5 text-blue-600 decoration-2 hover:underline font-medium" href="/article">
                   Go here
-                  <svg class="w-2.5 h-2.5" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                  <svg className="w-2.5 h-2.5" width="16" height="16" viewBox="0 0 16 16" fill="none">
                     <path d="M5.27921 2L10.9257 7.64645C11.1209 7.84171 11.1209 8.15829 10.9257 8.35355L5.27921 14" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
                   </svg>
                 </a>
@@ -46,12 +46,12 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div class="max-w-[85rem] w-[85%] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
-          <div class="max-w-2xl text-center mx-auto mb-10 lg:mb-14">
-            <h2 class="text-2xl font-bold md:text-4xl md:leading-tight dark:text-white">Read our latest blog</h2>
-            <p class="mt-1 text-gray-600 dark:text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        <div className="max-w-[85rem] w-[85%] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+          <div className="max-w-2xl text-center mx-auto mb-10 lg:mb-14">
+            <h2 className="text-2xl font-bold md:text-4xl md:leading-tight dark:text-white">Read our latest blog</h2>
+            <p className="mt-1 text-gray-600 dark:text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
           </div>
-          <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-10 lg:mb-14">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-10 lg:mb-14">
             {posts.slice(0, 4).map((post) => (
               <div className="">
                 <CardPost {...post} />
@@ -59,15 +59,15 @@ export default function Home() {
             ))}
           </div>
 
-          <div class="text-center">
-            <div class="inline-block bg-white border shadow-sm rounded-full dark:bg-[#1f2937] dark:border-gray-800">
-              <div class="py-3 px-4 flex items-center gap-x-2">
-                <p class="text-gray-600 dark:text-gray-400">
+          <div className="text-center">
+            <div className="inline-block bg-white border shadow-sm rounded-full dark:bg-[#1f2937] dark:border-gray-800">
+              <div className="py-3 px-4 flex items-center gap-x-2">
+                <p className="text-gray-600 dark:text-gray-400">
                   Want to read more?
                 </p>
-                <a class="inline-flex items-center gap-x-1.5 text-blue-600 decoration-2 hover:underline font-medium" href="/article">
+                <a className="inline-flex items-center gap-x-1.5 text-blue-600 decoration-2 hover:underline font-medium" href="/article">
                   Go here
-                  <svg class="w-2.5 h-2.5" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                  <svg className="w-2.5 h-2.5" width="16" height="16" viewBox="0 0 16 16" fill="none">
                     <path d="M5.27921 2L10.9257 7.64645C11.1209 7.84171 11.1209 8.15829 10.9257 8.35355L5.27921 14" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
                   </svg>
                 </a>
