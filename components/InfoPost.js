@@ -24,11 +24,11 @@ export default function InfoPost({
           <span className="uppercase">{category}</span>
         </div>
       </div> */}
-      <div class="p-4 md:p-5">
-        <h3 class="mt-2 text-lg font-medium text-gray-800 group-hover:text-blue-600 dark:text-gray-300 dark:group-hover:text-white">
+      <div className="p-4 md:p-5">
+        <h3 className="mt-2 text-lg font-medium text-gray-800 group-hover:text-blue-600 dark:text-gray-300 dark:group-hover:text-white">
           {category}
         </h3>
-        <p class="mt-2 text-xs uppercase text-gray-600 dark:text-gray-400">
+        <p className="mt-2 text-xs uppercase text-gray-600 dark:text-gray-400">
           {title}
         </p>
       </div>
